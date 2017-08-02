@@ -11,3 +11,15 @@ body {
   color #000;
   opacity: 0.55;
 }
+
+.top-right .bell{
+  width: 20px;
+  height: 20px;
+  background: url(../images/spritesheet.png) -194px 48px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  border-radius: 50%;
+  padding: 0 2px;
+  background-color: rgba(0,0,0,.55);
+  color: #fff;
+}
