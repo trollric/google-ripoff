@@ -99,3 +99,24 @@ div {
   width: 272px;
   height: 92px;
 }
+
+.logo-subtext {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: relative;
+  left: 106px;
+  top: -20px;
+  white-space: nowrap;
+}
+
+.searchbar{
+  position: relative;
+  width: 480px;
+  height: 67px;
+  margin: 0 auto;
+}
+
+.bar, .formality input{
+  width: 100%;
+  padding: 12px 0px;
+}
