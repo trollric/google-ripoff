@@ -120,3 +120,33 @@ div {
   width: 100%;
   padding: 12px 0px;
 }
+
+.keyboard-button, .microphone-button{
+  position: relative;
+  width: 40px;
+  height: 44px;
+  background-color: black;
+  display: inline-block;
+}
+
+.keyboard-button img {
+  position: relative;
+  margin: auto;
+  width: 19px;
+  height: 11px;
+}
+
+.microphone-button img{
+  position: relative;
+  width: 18px;
+  height: 23px;
+  margin: auto;
+}
+
+.microphone-button{
+
+}
+
+.keyboard-button{
+
+}
