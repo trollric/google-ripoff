@@ -123,24 +123,29 @@ div {
 
 .keyboard-button, .microphone-button{
   position: relative;
+  top: -44px;
+  left: 200px;
   width: 40px;
   height: 44px;
-  background-color: black;
   display: inline-block;
 }
 
 .keyboard-button img {
-  position: relative;
-  margin: auto;
+  top: 16px;
   width: 19px;
   height: 11px;
 }
 
 .microphone-button img{
-  position: relative;
+  top: 10px;
   width: 18px;
   height: 23px;
+}
+
+.microphone-button img, .keyboard-button img{
   margin: auto;
+  display: block;
+  position: relative;
 }
 
 .microphone-button{
