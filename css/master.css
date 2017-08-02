@@ -1,8 +1,17 @@
 body {
   background: #fff;
 }
+
+div {
+  display: block;
+}
 #top-right{
-  width: 210px;
+  position: absolute;
+  right: 0;
+  min-width: 210px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: right;
 }
 
 #top-right div {
@@ -22,6 +31,10 @@ body {
   font-family: arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
+}
+
+#top-right .text a:hover{
+  text-decoration: underline;
 }
 
 #top-right .boxes{
@@ -71,4 +84,18 @@ body {
   margin-top: 4px;
   width: 24px;
   height: 24px;
+}
+
+#center{
+  position: relative;
+  top: 200px;
+  min-width: 400px;
+  min-height: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.main-logo img {
+  width: 272px;
+  height: 92px;
 }
